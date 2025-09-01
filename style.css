@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.resume {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-col {
+  background-color: #14354e;
+  color: #fff;
+  padding: 20px;
+  width: 30%;
+}
+
+.left-col h3 {
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.left-col p, .left-col li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li::before {
+  content: \"• \";
+  color: #fff;
+}
+
+.right-col {
+  padding: 30px;
+  width: 70%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header h1 span {
+  font-weight: bold;
+}
+
+header h2 {
+  margin: 5px 0 20px;
+  color: gray;
+  font-weight: normal;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h3 {
+  border-bottom: 2px solid #0f2c44;
+  padding-bottom: 5px;
+}
+
+.job h4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reference {
+  display: flex;
+  gap: 40px;
+}
+
+.ref p {
+  margin: 0;
+  font-size: 0.9rem;
+}
